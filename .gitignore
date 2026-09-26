@@ -2,5 +2,5 @@
 node_modules/
 
 # CSS
-css/style.css
-css/style.css.map
+css/*.css
+css/*.map
