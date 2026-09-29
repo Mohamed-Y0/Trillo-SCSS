@@ -23,9 +23,10 @@
             type="text"
             placeholder="Search Hotels"
             class="search__input"
+            aria-label="Search hotels"
           />
-          <button class="search__button">
-            <svg class="search__icon">
+          <button class="search__button" aria-label="Submit search">
+            <svg class="search__icon" aria-hidden="true">
               <use href="img/sprite.svg#magnifying-glass"></use>
             </svg>
           </button>
@@ -70,8 +71,8 @@
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
                   <use href="img/sprite.svg#aircraft-take-off"></use>
-                  <span>Flight</span>
                 </svg>
+                <span>Flight</span>
               </a>
             </li>
 
@@ -123,7 +124,7 @@
 
           <div class="overview">
             <h1 class="overview__heading">Hotel Las Palmas</h1>
-            <div class="overview__stars">
+            <div class="overview__stars" aria-label="5 out of 5 stars">
               <svg class="overview__icon-star">
                 <use href="img/sprite.svg#star"></use>
               </svg>
@@ -169,16 +170,16 @@
               <ul class="list">
                 <li class="list__item">Close to the beach</li>
                 <li class="list__item">Breakfast included</li>
-                <li class="list__item">Free airput shuttle</li>
+                <li class="list__item">Free airport shuttle</li>
                 <li class="list__item">Free wifi in all rooms</li>
                 <li class="list__item">Air conditioning and heating</li>
                 <li class="list__item">Pets allowed</li>
                 <li class="list__item">We speak all languages</li>
-                <li class="list__item">Perefect for families</li>
+                <li class="list__item">Perfect for families</li>
               </ul>
               <div class="recommend">
                 <p class="recommend__count">
-                  Lucy and 3 other friends recommed this hotel.
+                  Lucy and 3 other friends recommend this hotel.
                 </p>
                 <div class="recommend__friends">
                   <img
@@ -244,7 +245,7 @@
                 </figcaption>
               </figure>
 
-              <button class="btn-inline">Show all <span>&rarr;;</span></button>
+              <button class="btn-inline">Show all <span>&rarr;</span></button>
             </div>
           </div>
 
